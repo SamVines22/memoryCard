@@ -1,0 +1,22 @@
+.pictures {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+}
+
+#imageContainer {
+    position: relative;
+}
+
+#caption {
+    position: absolute;
+    background-color: white;
+    top: 5%;
+    left: 5%;
+    padding: 2%;
+    
+    
+    
+}
